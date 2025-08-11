@@ -28,7 +28,11 @@ cd z2m-renamer
 python3 main.py --host <mqttserver>
 ```
 
----
+If your MQTT broker requires authentication:
+
+```bash
+python3 main.py --host <mqttserver> --username <user> --password <pass>
+```
 
 ## 💻 Usage on Any Computer
 
